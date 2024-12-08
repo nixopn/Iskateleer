@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\eisne\\source\\repos\\MyDriver8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE9B633-C2C8-4F34-857F-B87432D50706}|MyDriver8\\MyDriver8.vcxproj|C:\\Users\\eisne\\source\\repos\\MyDriver8\\MyDriver8\\Sample.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FAE9B633-C2C8-4F34-857F-B87432D50706}|MyDriver8\\MyDriver8.vcxproj|solutionrelative:MyDriver8\\Sample.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sample.cpp",
+              "DocumentMoniker": "C:\\Users\\eisne\\source\\repos\\MyDriver8\\MyDriver8\\Sample.cpp",
+              "RelativeDocumentMoniker": "MyDriver8\\Sample.cpp",
+              "ToolTip": "C:\\Users\\eisne\\source\\repos\\MyDriver8\\MyDriver8\\Sample.cpp",
+              "RelativeToolTip": "MyDriver8\\Sample.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-08T19:33:13.065Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

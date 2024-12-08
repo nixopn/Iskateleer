@@ -1,0 +1,48 @@
+;
+; MyDriver8.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=SampleDeviceClass
+ClassGuid={12345678-1234-1234-1234-123456789012}
+Provider=%ManufacturerName%
+DriverVer = 12/07/2024,14.23.17.528
+
+[Manufacturer]
+%ManufacturerName%=DeviceList
+
+[DeviceList]
+%DeviceName%=DriverInstall,USBVID_1234&PID_5678
+
+[DriverInstall]
+CopyFiles=DriverCopyFiles
+AddReg=DriverAddReg
+
+[DriverCopyFiles]
+SampleDriver.sys
+
+[DriverAddReg]
+; Здесь можно добавить дополнительные параметры реестра
+HKLM,"SoftwareSampleDevice","DeviceType",0x00000000,"SampleType"
+
+[DestinationDirs]
+DefaultDestDir=12
+
+[SourceDisksNames]
+1=%DiskName%,,,
+
+[SourceDisksFiles]
+SampleDriver.sys=1
+
+[ServiceInstall]
+DisplayName=%DeviceName%
+ServiceType=1 ; SERVICE_KERNEL_DRIVER
+StartType=3 ; SERVICE_DEMAND_START
+ErrorControl=1 ; SERVICE_ERROR_NORMAL
+ServiceBinary=%12%SampleDriver.sys
+
+[Strings]
+ManufacturerName="MyCompany"
+DeviceName="My Sample Device"
+DiskName="Sample Device Driver Disk"
